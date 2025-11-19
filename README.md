@@ -15,3 +15,9 @@ A modern Java Spring Boot web application for managing Students and Courses with
 - **Clear error messages** for better UX
 
 ---
+
+## 🔗 Entity Relationship
+
+![alt text](./ERD.svg)
+
+---
