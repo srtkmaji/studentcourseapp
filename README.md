@@ -20,6 +20,9 @@ A modern Java Spring Boot web application for managing Students and Courses with
 
 ![ERD Diagram](./ERD.svg)
 
+- A Course can have many Students enrolled in it (One-to-Many from the Course's perspective).
+- Each Student is enrolled in one Course (Many-to-One from the Student's perspective).
+
 ---
 
 ## 🛠 Tech Stack
