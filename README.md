@@ -8,7 +8,7 @@ A modern Java Spring Boot web application for managing Students and Courses with
 
 - **CRUD for Students and Courses**
 - **Many-to-One relationship:** Each student is enrolled in one course, each course may have many students
-- **Sample dataset:** Bengali/Indian student names, curated course list
+- **Sample dataset:** Bengali student names, curated course list
 - **Modern UI:** Responsive, clean tables and forms, error cards, and navigation
 - **Validation & Constraints:** Prevent deleting courses that have students enrolled
 - **Comprehensive Testing:** JUnit & Mockito coverage
@@ -18,7 +18,7 @@ A modern Java Spring Boot web application for managing Students and Courses with
 
 ## 🔗 Entity Relationship
 
-![alt text](./ERD.svg)
+![ERD Diagram](./ERD.svg)
 
 ---
 
@@ -26,7 +26,7 @@ A modern Java Spring Boot web application for managing Students and Courses with
 
 - **Spring Boot 2.7.x**
 - **Spring Data JPA / Hibernate**
-- **MySQL (main), H2 (testing)**
+- **MariaDB (main), H2 (testing)**
 - **JSP, JSTL, Custom CSS**
 - **JUnit 5, Mockito**
 - **Maven**
@@ -39,31 +39,23 @@ A modern Java Spring Boot web application for managing Students and Courses with
    git clone https://github.com/srtkmaji/studentcourseapp.git
    cd studentcourseapp
 
-text 2. **Setup MySQL Database**
+2. **Setup MySQL Database**
 CREATE DATABASE studentcoursedb;
 
-text
+
 Update your `src/main/resources/application.properties` credentials.
 
 3. **Run**
    ./mvnw clean install
    ./mvnw spring-boot:run
 
-text 4. **Open in Browser**
+4. **Open in Browser**
 
 - [http://localhost:8080/students](http://localhost:8080/students)
 - [http://localhost:8080/courses](http://localhost:8080/courses)
 
 5. **Run Tests**
    ./mvnw test
-
-text
-
----
-
-## 📝 Sample Data
-
-Course and Student tables are pre-populated with Bengali/Indian names (`@vce.com` extension) and popular courses for easy demo.
 
 ---
 
@@ -93,6 +85,6 @@ Course and Student tables are pre-populated with Bengali/Indian names (`@vce.com
 ## 👤 Author
 
 Developed by **Sarthak Maji**  
-[Your GitHub Profile](https://github.com/srtkmaji)
+[GitHub Profile](https://github.com/srtkmaji)
 
 ---
