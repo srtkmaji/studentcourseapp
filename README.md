@@ -65,7 +65,9 @@ Update your `src/main/resources/application.properties` credentials.
 ## 💡 Key Implementation Notes
 
 - **Course delete is protected:** Cannot delete a course if students are enrolled; user sees an error card explaining the constraint.
+
     ![Error Card](./ErrorCard.png)
+
 - **Modern UI:** Custom CSS with “Merriweather” font, responsive tables, forms, cards, and navigation bar.
 - **Consistent UX:** Friendly validation, error handling, and safe redirects.
 
